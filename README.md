@@ -26,7 +26,7 @@ Every tutorial published here is the result of deep research into the best free 
 
 ## 💡 Philosophy
 
-The barrier between someone who _knows how to do it_ and someone who _would like to know how to do it_ is usually the lack of clear, honest documentation — not a lack of ability.
+The barrier between someone who _knows how to do it_ and someone who _would like to know how to do it_ is usually the lack of clear, honest documentation / not a lack of ability.
 
 This repository is an attempt to close that gap.
 
@@ -95,11 +95,11 @@ This repository is an attempt to close that gap.
 Every guide published in this repository meets the following criteria:
 
 - ✅ **Tested from A to Z** before publication, on a clean machine
-- ✅ **Zero assumed prerequisites** — every unknown concept is explained the first time it appears
-- ✅ **Verification at each critical step** — you always know if you are on the right track
-- ✅ **Troubleshooting section included** — the most common errors are anticipated and documented
+- ✅ **Zero assumed prerequisites** : every unknown concept is explained the first time it appears
+- ✅ **Verification at each critical step** : you always know if you are on the right track
+- ✅ **Troubleshooting section included** : the most common errors are anticipated and documented
 - ✅ **Updated** when the tools involved change significantly
-- ✅ **Entirely free** — no step requires a subscription or purchase
+- ✅ **Entirely free** : no step requires a subscription or purchase
 
 ---
 
