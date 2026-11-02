@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+<title id="title">Skills — RufusTheDwarf Technology Stack</title><desc id="desc">Animated technology skills panel listing the programming languages, frameworks, databases, platforms and tools used across projects.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#070B18"/><stop offset="0.52" stop-color="#0C1024"/><stop offset="1" stop-color="#111B35"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#101A31" stop-opacity=".96"/><stop offset="1" stop-color="#0A1020" stop-opacity=".94"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset=".52" stop-color="#60A5FA"/><stop offset="1" stop-color="#67E8F9"/>
+  </linearGradient>
+  <linearGradient id="accentVertical" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#38BDF8"/>
+  </linearGradient>
+  <radialGradient id="glowViolet"><stop offset="0" stop-color="#8B5CF6" stop-opacity=".34"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glowBlue"><stop offset="0" stop-color="#38BDF8" stop-opacity=".25"/><stop offset="1" stop-color="#38BDF8" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" fill="none" stroke="#8295C4" stroke-opacity=".10" stroke-width="1"/>
+    <circle cx="0" cy="0" r="1.2" fill="#A78BFA" fill-opacity=".28"/>
+  </pattern>
+  <pattern id="microgrid" width="8" height="8" patternUnits="userSpaceOnUse">
+    <path d="M8 0H0V8" fill="none" stroke="#9BB1DB" stroke-opacity=".08" stroke-width=".6"/>
+  </pattern>
+  <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="2.2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="roundedClip"><rect x="0" y="0" width="1600" height="520" rx="24"/></clipPath>
+  <style>
+    text { text-rendering: geometricPrecision; }
+    .mono { font-family: 'SFMono-Regular',Consolas,'Liberation Mono',monospace; }
+    .sans { font-family: Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif; }
+    .muted { fill:#8493B2; }
+    .bright { fill:#EEF4FF; }
+    .violet { fill:#B9A4FF; }
+    .blue { fill:#7DD3FC; }
+    .strokeAccent { stroke:url(#accent); }
+    .pulse { animation:pulse 3.4s ease-in-out infinite; }
+    .pulseSlow { animation:pulse 5.2s ease-in-out infinite; }
+    .drift { animation:drift 8s ease-in-out infinite; transform-box:fill-box; transform-origin:center; }
+    .drift2 { animation:drift 11s ease-in-out infinite reverse; transform-box:fill-box; transform-origin:center; }
+    .dash { stroke-dasharray:8 12; animation:dash 18s linear infinite; }
+    .scan { animation:scan 8s linear infinite; }
+    .blink { animation:blink 1.15s steps(2,end) infinite; }
+    .glowPulse { animation:glowPulse 4s ease-in-out infinite; }
+    @keyframes pulse {0%,100%{opacity:.35}50%{opacity:1}}
+    @keyframes drift {0%,100%{transform:translate(0,0)}50%{transform:translate(7px,-8px)}}
+    @keyframes dash {to{stroke-dashoffset:-400}}
+    @keyframes scan {0%{transform:translateY(-560px)}100%{transform:translateY(560px)}}
+    @keyframes blink {0%,48%{opacity:1}49%,100%{opacity:0}}
+    @keyframes glowPulse {0%,100%{opacity:.42}50%{opacity:.95}}
+    @media (prefers-reduced-motion: reduce) { .pulse,.pulseSlow,.drift,.drift2,.dash,.scan,.blink,.glowPulse { animation:none !important; } }
+  </style>
+</defs>
+
+<g>
+ <rect width="1600" height="360" rx="22" fill="url(#bg)"/>
+ <rect width="1600" height="360" rx="22" fill="url(#grid)"/>
+ <ellipse cx="310" cy="300" rx="330" ry="200" fill="url(#glowBlue)" class="pulseSlow"/>
+ <ellipse cx="1350" cy="80" rx="320" ry="210" fill="url(#glowViolet)" class="pulse"/>
+ <rect x="22" y="22" width="1556" height="316" rx="17" fill="url(#panel)" stroke="#52678F" stroke-opacity=".48"/>
+ <path d="M22 75H1578" stroke="#7185B0" stroke-opacity=".3"/>
+ <path d="M22 75H250L270 55H410" fill="none" stroke="url(#accent)" stroke-width="2"/>
+ <g class="mono" font-size="11" letter-spacing="2.2">
+  <text x="58" y="55" fill="#AAB7D2">02 / SKILLS / TECHNOLOGY MATRIX</text>
+  <text x="1540" y="55" text-anchor="end" fill="#7183A9">STACK.SYS // ACTIVE TOOLSET</text>
+ </g>
+ <text x="58" y="132" class="sans bright" font-size="43" font-weight="760" letter-spacing="-1">TECHNOLOGY <tspan fill="url(#accent)">STACK</tspan></text>
+ <text x="60" y="158" class="mono" font-size="10" letter-spacing="1.7" fill="#7F91B6">TOOLS USED IN REAL PROJECTS — NOT A WISHLIST</text>
+ <!-- category dividers -->
+ <path d="M58 185H1540" stroke="#6479A4" stroke-opacity=".25"/>
+ <path d="M430 198V315M790 198V315M1160 198V315" stroke="#6479A4" stroke-opacity=".25" stroke-dasharray="3 7"/>
+ <!-- languages -->
+ <g transform="translate(60 210)">
+  <text class="mono" font-size="10" letter-spacing="1.8" fill="#A78BFA">LANGUAGES</text>
+  <g class="sans" font-size="16" fill="#E7EEFF" font-weight="600">
+   <text y="31">C#</text><text x="94" y="31">Python</text>
+   <text y="59">JavaScript</text><text x="120" y="59">TypeScript</text>
+   <text y="87">HTML / CSS</text><text x="120" y="87">PowerShell</text>
+   <text y="115">Bash</text>
+  </g>
+  <circle cx="0" cy="-4" r="3" fill="#A78BFA" class="pulse"/>
+ </g>
+ <!-- frameworks -->
+ <g transform="translate(455 210)">
+  <text class="mono" font-size="10" letter-spacing="1.8" fill="#60A5FA">FRAMEWORKS</text>
+  <g class="sans" font-size="16" fill="#E7EEFF" font-weight="600">
+   <text y="31">.NET / .NET 9</text><text y="59">Node.js</text>
+   <text y="87">React</text><text y="115">Vite</text>
+  </g>
+  <circle cx="0" cy="-4" r="3" fill="#60A5FA" class="pulseSlow"/>
+ </g>
+ <!-- databases -->
+ <g transform="translate(815 210)">
+  <text class="mono" font-size="10" letter-spacing="1.8" fill="#67E8F9">DATA / DATABASES</text>
+  <g class="sans" font-size="16" fill="#E7EEFF" font-weight="600">
+   <text y="31">Microsoft SQL Server</text><text y="59">T-SQL</text>
+  </g>
+  <circle cx="0" cy="-4" r="3" fill="#67E8F9" class="pulse"/>
+ </g>
+ <!-- platforms and tools -->
+ <g transform="translate(1185 210)">
+  <text class="mono" font-size="10" letter-spacing="1.8" fill="#A78BFA">PLATFORMS / TOOLS</text>
+  <g class="sans" font-size="15" fill="#E7EEFF" font-weight="600">
+   <text y="31">Git · GitHub</text><text y="59">VS Code · VirtualBox</text>
+   <text y="87">Packet Tracer</text><text y="115">PaperMC · Ruffle</text>
+  </g>
+  <circle cx="0" cy="-4" r="3" fill="#A78BFA" class="pulseSlow"/>
+ </g>
+ <path d="M30 0V360" stroke="url(#accent)" stroke-width="2" stroke-dasharray="28 14" class="dash" opacity=".7"/>
+ <rect x="22" y="22" width="1556" height="2" fill="url(#accent)" opacity=".18" class="scan"/>
+</g>
+</svg>
