@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="156" viewBox="0 0 1200 156" role="img" aria-labelledby="title desc">
+<title id="title">About this developer</title><desc id="desc">A compact technical panel introducing the profile mission.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#120C20"/><stop offset="1" stop-color="#0A0B16"/></linearGradient>
+ <linearGradient id="line"><stop stop-color="#D4B9FF"/><stop offset="1" stop-color="#7156B5"/></linearGradient>
+ <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#A78BFA" stroke-opacity=".09"/></pattern>
+</defs>
+<rect x="1" y="1" width="1198" height="154" rx="8" fill="url(#bg)" stroke="#705894" stroke-opacity=".85"/>
+<rect x="1" y="1" width="1198" height="154" rx="8" fill="url(#grid)"/>
+<path d="M1 20V1H20M1180 1H1199V20M1 136V155H20M1180 155H1199V136" fill="none" stroke="#C6A8F5" stroke-width="2"/>
+<path d="M35 28V128" stroke="url(#line)" stroke-width="3"/>
+<g font-family="Consolas, monospace"><text x="60" y="41" fill="#A78BFA" font-size="11" letter-spacing="2">01 / PROFILE</text><text x="60" y="83" fill="#F1EAFB" font-family="Arial, sans-serif" font-size="31" font-weight="700">ABOUT THE WORK</text><text x="60" y="111" fill="#BDAED0" font-size="13" letter-spacing="1">FREE TOOLS  /  CLEAR GUIDES  /  REPRODUCIBLE SETUPS</text></g>
+<path d="M646 28V128" stroke="#6D578F" stroke-opacity=".8"/>
+<g transform="translate(688 43)" fill="none" stroke="#A78BFA" stroke-width="1.7"><path d="M0 4L18 4L30 17L54 17L68 4L92 4"/><path d="M0 25H28L42 39H66L80 25H92"/><circle cx="0" cy="4" r="3" fill="#CBB1FF"/><circle cx="92" cy="4" r="3" fill="#CBB1FF"/><circle cx="46" cy="17" r="4" fill="#9B76D8"/></g>
+<g font-family="Arial, sans-serif"><text x="815" y="64" fill="#E7DDF5" font-size="18" font-weight="700">Making technology easier to use.</text><text x="815" y="91" fill="#AFA0C2" font-size="14">I build software, experiment with infrastructure and</text><text x="815" y="113" fill="#AFA0C2" font-size="14">document what I learn so others can reproduce it.</text></g>
+<text x="1160" y="137" fill="#78638F" font-family="Consolas, monospace" font-size="9" text-anchor="end" letter-spacing="1">RUFUS / 001</text>
+</svg>

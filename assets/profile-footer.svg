@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="250" viewBox="0 0 1600 250" role="img" aria-labelledby="title desc">
+<title id="title">Build learn share</title><desc id="desc">A dark violet technical footer with the profile motto and connected nodes.</desc>
+<defs>
+ <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#130C20"/><stop offset=".5" stop-color="#0C0A16"/><stop offset="1" stop-color="#111025"/></linearGradient>
+ <linearGradient id="stroke" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7055A8"/><stop offset=".5" stop-color="#C4A4F6"/><stop offset="1" stop-color="#655BD5"/></linearGradient>
+ <radialGradient id="orb"><stop stop-color="#8158D8" stop-opacity=".25"/><stop offset="1" stop-color="#8158D8" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#A78BFA" stroke-opacity=".08" fill="none"/></pattern>
+</defs>
+<rect width="1600" height="250" rx="12" fill="url(#bg)"/><rect width="1600" height="250" rx="12" fill="url(#grid)"/>
+<ellipse cx="1260" cy="120" rx="360" ry="210" fill="url(#orb)"/>
+<path d="M28 20H1572V230H28Z" fill="none" stroke="#775D9F" stroke-opacity=".6"/>
+<path d="M28 45H55M28 45V20M1572 45H1545M1572 45V20M28 205H55M28 205V230M1572 205H1545M1572 205V230" stroke="#C6A8F5" stroke-width="2" fill="none"/>
+<g font-family="Consolas, monospace" fill="#A78BFA" font-size="11" letter-spacing="3"><text x="90" y="70">END OF FILE / PROFILE</text><text x="1510" y="70" text-anchor="end">SESSION: OPEN_SOURCE</text></g>
+<g font-family="Arial, sans-serif"><text x="88" y="145" fill="#F2ECFC" font-size="49" font-weight="700" letter-spacing="1">BUILD.</text><text x="280" y="145" fill="#BBA0F0" font-size="49" font-weight="700" letter-spacing="1">LEARN.</text><text x="505" y="145" fill="#F2ECFC" font-size="49" font-weight="700" letter-spacing="1">SHARE.</text></g>
+<path d="M91 170H710" stroke="url(#stroke)" stroke-width="2"/><circle cx="91" cy="170" r="3" fill="#E1D1FF"/><circle cx="710" cy="170" r="3" fill="#E1D1FF"/>
+<text x="91" y="200" fill="#BDAED0" font-family="Arial, sans-serif" font-size="16">Technology should be understandable, reproducible and accessible.</text>
+<g transform="translate(1165 132)" fill="none" stroke="#9678C8">
+ <path d="M-170 0H-112L-76-40H-20L18 0H82L117-35H168" stroke-width="1.4"/>
+ <path d="M-112 0L-76 40H-20L18 0M82 0L117 35H168" stroke-width="1.4" opacity=".65"/>
+ <circle cx="-170" cy="0" r="5" fill="#C7AEF4"/><circle cx="-20" cy="-40" r="4" fill="#9B76D8"/><circle cx="82" cy="0" r="5" fill="#C7AEF4"/><circle cx="168" cy="-35" r="4" fill="#9B76D8"/>
+ <circle cx="-76" cy="40" r="4" fill="#8C7DF3"/><circle cx="168" cy="35" r="4" fill="#8C7DF3"/>
+ <circle cx="-20" cy="-40" r="4"><animate attributeName="opacity" values=".3;1;.3" dur="3s" repeatCount="indefinite"/></circle>
+</g>
+<path d="M90 218H1510" stroke="#705894" stroke-opacity=".55"/>
+<text x="90" y="237" fill="#89769F" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4">RUFUSTHEDWARF</text>
+<text x="1510" y="237" fill="#89769F" font-family="Consolas, monospace" font-size="9" letter-spacing="1.4" text-anchor="end">THANKS FOR STOPPING BY</text>
+</svg>
