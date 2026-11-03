@@ -1,27 +1,42 @@
-RUFUSTHEDWARF PROFILE README PACK
-=================================
+RUFUSTHEDWARF PURPLE TERMINAL PROFILE PACK
+==========================================
 
-Contents
+CONTENTS
 --------
-README.md                 Complete GitHub profile README
-assets/header.svg         Animated profile header
-assets/about.svg          Animated About section banner
-assets/skills.svg         Animated skills / technology matrix
-assets/footer.svg         Animated profile footer
 
-Install
--------
-1. Download and extract this archive.
-2. Copy README.md and the complete assets/ folder into the root of:
+README.md
+assets/header.gif
+assets/about.gif
+assets/skills.gif
+assets/footer.gif
+assets/avatar.png
+
+
+INSTALLATION
+------------
+
+1. Extract the archive at the root of your profile repository:
+
    https://github.com/RufusTheDwarf/RufusTheDwarf
-3. Keep the folder name exactly "assets". The README uses relative paths.
-4. Preview the profile page before committing.
 
-Important
+2. Keep the assets folder beside README.md.
+
+3. Preview README.md locally, then commit and push from your own Git client.
+
+
+ANIMATION
 ---------
-- These SVG files are self-contained. They use inline vector shapes, gradients,
-  CSS keyframes and no external image assets or JavaScript.
-- Animation is intended to play when GitHub displays the SVGs as images.
-  SVG animation support can vary between renderers and cached previews.
-- The README is supplied as a separate file in this archive.
-- No changes have been made to your GitHub repository.
+
+The four profile graphics are animated GIF files so that visible motion is supported in GitHub READMEs.
+
+GitHub documents SVG images as static in this context.
+
+The uploaded transparent avatar is preserved in the header.
+
+
+IMPORTANT
+---------
+
+No files are pushed to GitHub by this pack.
+
+You remain in control of all Git operations and commits.
