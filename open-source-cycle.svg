@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-labelledby="title desc">
+  <title id="title">Open source, a shared cycle</title>
+  <desc id="desc">A violet and blue technical illustration showing four connected stages: inspect, understand, build and share.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0812"/>
+      <stop offset="0.55" stop-color="#151027"/>
+      <stop offset="1" stop-color="#0B1022"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8056C9"/>
+      <stop offset="0.52" stop-color="#536BCE"/>
+      <stop offset="1" stop-color="#36BFD8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#B99AFF"/>
+      <stop offset="1" stop-color="#6F8CFF"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#B99AFF" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="270" rx="18" fill="url(#bg)" stroke="#49336B"/>
+  <rect width="1200" height="270" rx="18" fill="url(#grid)"/>
+  <path d="M28 46H160L176 30H315M885 220H1035L1054 201H1172" fill="none" stroke="#8056C9" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="160" cy="46" r="3" fill="#B99AFF"/><circle cx="1035" cy="220" r="3" fill="#6F8CFF"/>
+  <text x="48" y="66" fill="#B99AFF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" letter-spacing="3">OPEN SOURCE / SHARED KNOWLEDGE</text>
+  <text x="1152" y="66" text-anchor="end" fill="#9689AE" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">A PRACTICAL PHILOSOPHY</text>
+  <path d="M178 145H1022" stroke="#392B51" stroke-width="4" stroke-linecap="round"/>
+  <path d="M178 145H1022" stroke="url(#line)" stroke-width="2.5" stroke-linecap="round" filter="url(#glow)"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" text-anchor="middle">
+    <g transform="translate(190 145)">
+      <circle r="35" fill="#171029" stroke="#8056C9" stroke-width="2"/>
+      <circle r="26" fill="none" stroke="#B99AFF" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      <path d="M-12 -7a14 14 0 1 1 0 14M-15 -12v10h10M0 -13l13 13-13 13" fill="none" stroke="#C9B2FF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="65" fill="#F0EAF8" font-size="15" font-weight="700" letter-spacing="1.5">INSPECT</text>
+      <text y="84" fill="#A79BB9" font-size="10" letter-spacing="1">READ THE SOURCE</text>
+    </g>
+    <g transform="translate(463 145)">
+      <circle r="35" fill="#171029" stroke="#7161C9" stroke-width="2"/>
+      <circle r="26" fill="none" stroke="#9EA7FF" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      <path d="M-13 0h26M0 -13v26M-9 -9l18 18M9 -9L-9 9" stroke="#AEB8FF" stroke-width="2" stroke-linecap="round"/>
+      <circle r="7" fill="#171029" stroke="#C9B2FF" stroke-width="2"/>
+      <text y="65" fill="#F0EAF8" font-size="15" font-weight="700" letter-spacing="1.5">UNDERSTAND</text>
+      <text y="84" fill="#A79BB9" font-size="10" letter-spacing="1">LEARN THE WHY</text>
+    </g>
+    <g transform="translate(737 145)">
+      <circle r="35" fill="#171029" stroke="#536BCE" stroke-width="2"/>
+      <circle r="26" fill="none" stroke="#8AB5FF" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      <path d="M-13 -10h26v20h-26zM-7 -16v6M7 -16v6M-7 10v6M7 10v6M-19 -4h6M13 -4h6M-19 4h6M13 4h6" fill="none" stroke="#9BCBFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text y="65" fill="#F0EAF8" font-size="15" font-weight="700" letter-spacing="1.5">BUILD</text>
+      <text y="84" fill="#A79BB9" font-size="10" letter-spacing="1">MAKE IT USEFUL</text>
+    </g>
+    <g transform="translate(1010 145)">
+      <circle r="35" fill="#171029" stroke="#36AFCB" stroke-width="2"/>
+      <circle r="26" fill="none" stroke="#7EDFF0" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      <circle cx="-11" cy="0" r="5" fill="#171029" stroke="#9CEBFA" stroke-width="2"/>
+      <circle cx="11" cy="-11" r="5" fill="#171029" stroke="#9CEBFA" stroke-width="2"/>
+      <circle cx="11" cy="11" r="5" fill="#171029" stroke="#9CEBFA" stroke-width="2"/>
+      <path d="M-6 -2L6 -9M-6 2L6 9" stroke="#9CEBFA" stroke-width="2"/>
+      <text y="65" fill="#F0EAF8" font-size="15" font-weight="700" letter-spacing="1.5">SHARE</text>
+      <text y="84" fill="#A79BB9" font-size="10" letter-spacing="1">HELP OTHERS BUILD</text>
+    </g>
+  </g>
+  <text x="600" y="255" text-anchor="middle" fill="#B99AFF" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="2">TRANSPARENCY  /  REPRODUCIBILITY  /  COLLABORATION</text>
+  <path d="M178 145h18M451 145h24M725 145h24M999 145h22" stroke="#F0EAF8" stroke-opacity=".65" stroke-width="2"/>
+</svg>
