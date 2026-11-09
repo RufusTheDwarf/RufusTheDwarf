@@ -1,39 +1,69 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
-  <title id="title">Build. Learn. Share. Improve.</title>
-  <desc id="desc">A simple violet wave footer marking the end of the RufusTheDwarf profile README.</desc>
-  <defs>
-    <linearGradient id="waveBack" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#35204F"/>
-      <stop offset="0.52" stop-color="#60409A"/>
-      <stop offset="1" stop-color="#35204F"/>
-    </linearGradient>
-    <linearGradient id="waveFront" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#8056C9"/>
-      <stop offset="0.48" stop-color="#B99AFF"/>
-      <stop offset="1" stop-color="#8056C9"/>
-    </linearGradient>
-    <linearGradient id="textGradient" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#B99AFF"/>
-      <stop offset="0.5" stop-color="#F0EAF8"/>
-      <stop offset="1" stop-color="#B99AFF"/>
-    </linearGradient>
-  </defs>
-
-  <rect width="1200" height="190" rx="12" fill="#0B0812"/>
-  <path d="M0 25 C145 2 260 5 390 24 S635 47 785 22 S1055 1 1200 24" fill="none" stroke="#8056C9" stroke-opacity=".55" stroke-width="2"/>
-  <path d="M0 35 C155 12 270 16 405 34 S650 56 805 32 S1065 12 1200 34" fill="none" stroke="#B99AFF" stroke-opacity=".24" stroke-width="1.2"/>
-
-  <text x="600" y="100" text-anchor="middle" fill="url(#textGradient)"
-        font-family="Inter, Segoe UI, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="4">
-    BUILD <tspan fill="#8056C9">·</tspan> LEARN <tspan fill="#8056C9">·</tspan> SHARE <tspan fill="#8056C9">·</tspan> IMPROVE
-  </text>
-  <text x="600" y="126" text-anchor="middle" fill="#A79BB9"
-        font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" letter-spacing="2.8">
-    KEEP KNOWLEDGE OPEN. KEEP MAKING THINGS BETTER.
-  </text>
-
-  <path d="M0 137 C140 108 275 112 405 139 C555 170 680 160 810 136 C960 108 1080 110 1200 137 L1200 190 L0 190 Z" fill="url(#waveBack)" fill-opacity=".62"/>
-  <path d="M0 153 C155 126 265 132 405 153 C545 174 685 177 825 150 C965 123 1090 128 1200 153 L1200 190 L0 190 Z" fill="url(#waveFront)" fill-opacity=".40"/>
-  <path d="M0 165 C155 147 265 148 410 165 C570 184 700 183 845 163 C980 145 1090 149 1200 166 L1200 190 L0 190 Z" fill="#8056C9" fill-opacity=".28"/>
-  <path d="M0 153 C155 126 265 132 405 153 C545 174 685 177 825 150 C965 123 1090 128 1200 153" fill="none" stroke="#B99AFF" stroke-opacity=".7" stroke-width="1.5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="f-t f-d">
+<title id="f-t">Build. Learn. Share. Improve.</title>
+<desc id="f-d">Animated footer closing the profile: the motto build, learn, share and improve, a blinking terminal cursor and a rotating emblem on a circuit line.</desc>
+<defs>
+  <pattern id="f-g1" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#B99AFF" stroke-opacity=".035"/></pattern>
+  <pattern id="f-g2" width="100" height="100" patternUnits="userSpaceOnUse"><path d="M100 0H0V100" fill="none" stroke="#B99AFF" stroke-opacity=".08"/><animateTransform attributeName="patternTransform" type="translate" from="0 0" to="100 100" dur="60s" repeatCount="indefinite"/></pattern>
+  <pattern id="f-dots" width="50" height="50" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r=".9" fill="#B99AFF" fill-opacity=".30"/><circle cx="35" cy="32" r=".7" fill="#536BCE" fill-opacity=".40"/><animateTransform attributeName="patternTransform" type="translate" from="50 0" to="0 50" dur="28s" repeatCount="indefinite"/></pattern>
+  <radialGradient id="f-vig" cx=".5" cy=".5" r=".75"><stop offset=".45" stop-color="#0B0812" stop-opacity="0"/><stop offset="1" stop-color="#0B0812" stop-opacity=".92"/></radialGradient>
+  <radialGradient id="f-glow"><stop offset="0" stop-color="#8056C9" stop-opacity=".55"/><stop offset=".6" stop-color="#8056C9" stop-opacity=".14"/><stop offset="1" stop-color="#8056C9" stop-opacity="0"/></radialGradient>
+  <linearGradient id="f-band" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B99AFF" stop-opacity="0"/><stop offset=".5" stop-color="#B99AFF" stop-opacity=".32"/><stop offset="1" stop-color="#B99AFF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="f-sweep" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B99AFF" stop-opacity="0"/><stop offset="1" stop-color="#B99AFF" stop-opacity=".07"/></linearGradient>
+  <linearGradient id="f-hl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <path id="f-m1" d="M47 104V70.4H57.8Q63 70.4 66 72.7Q69 75.1 69 79Q69 81.2 68 82.9Q67 84.5 65.2 85.5Q63.5 86.4 61.5 86.4V86.5Q63.7 86.5 65.6 87.3Q67.5 88.2 68.6 90Q69.8 91.7 69.8 94.3Q69.8 97.2 68.4 99.4Q67 101.6 64.4 102.8Q61.8 104 58.3 104ZM53.7 98.4H58Q60.2 98.4 61.5 97.2Q62.8 96 62.8 93.9Q62.8 91.8 61.5 90.6Q60.2 89.4 58 89.4H53.7ZM53.7 83.9H57.8Q59.8 83.9 60.9 82.9Q62.1 81.8 62.1 79.9Q62.1 78.1 60.9 77Q59.8 76 57.8 76H53.7Z M84.9 104.5Q79.8 104.5 76.8 101.7Q73.9 98.9 73.9 94.2V70.4H80.8V94.1Q80.8 96.2 81.8 97.4Q82.9 98.5 84.9 98.5Q86.8 98.5 87.9 97.4Q89 96.2 89 94.1V70.4H95.9V94.2Q95.9 98.9 93 101.7Q90 104.5 84.9 104.5Z M101.9 104V98H108.5V76.4H101.9V70.4H122.1V76.4H115.4V98H122.1V104Z M129.7 104V70.4H136.6V97.6H150.1V104Z M155.3 104V70.4H166.2Q169.7 70.4 172.3 71.8Q174.9 73.1 176.3 75.5Q177.8 77.9 177.8 81.2V93.2Q177.8 96.4 176.3 98.8Q174.9 101.3 172.3 102.6Q169.7 104 166.2 104ZM162.2 97.6H166.2Q168.3 97.6 169.6 96.4Q170.9 95.2 170.9 93.2V81.2Q170.9 79.3 169.6 78.1Q168.3 76.9 166.2 76.9H162.2Z M193.3 104.5Q191.2 104.5 189.9 103.2Q188.7 101.9 188.7 99.8Q188.7 97.7 189.9 96.4Q191.2 95.2 193.3 95.2Q195.5 95.2 196.7 96.4Q197.9 97.7 197.9 99.8Q197.9 101.9 196.7 103.2Q195.5 104.5 193.3 104.5Z"/>
+  <path id="f-m2" d="M238.6 104V70.4H245.5V97.6H259V104Z M265 104V70.4H285.7V76.3H271.7V83.9H284.1V89.7H271.7V98.1H285.7V104Z M289.5 104 297.8 70.4H306.5L314.8 104H307.8L306.2 96.4H298.2L296.6 104ZM299.3 90.9H305L303.4 82.8Q303.1 81 302.7 79.3Q302.4 77.6 302.2 76.6Q302 77.6 301.7 79.3Q301.4 81 301 82.7Z M318.5 104V70.4H329.3Q332.9 70.4 335.5 71.7Q338.1 72.9 339.6 75.2Q341 77.5 341 80.6Q341 83.9 339.4 86.5Q337.9 89 335.1 90.2L341.5 104H334L328.6 91.3H325.3V104ZM325.3 85.3H329.3Q331.6 85.3 332.9 84.2Q334.1 83 334.1 81Q334.1 78.8 332.9 77.6Q331.6 76.4 329.3 76.4H325.3Z M345.4 104V70.4H353.4L362.1 96.4Q362 94.7 361.8 92.5Q361.6 90.2 361.5 88Q361.4 85.8 361.4 84.2V70.4H367.4V104H359.4L350.8 78Q350.9 79.5 351.1 81.5Q351.2 83.5 351.3 85.6Q351.4 87.7 351.4 89.3V104Z M383.5 104.5Q381.4 104.5 380.1 103.2Q378.9 101.9 378.9 99.8Q378.9 97.7 380.1 96.4Q381.4 95.2 383.5 95.2Q385.7 95.2 386.9 96.4Q388.1 97.7 388.1 99.8Q388.1 101.9 386.9 103.2Q385.7 104.5 383.5 104.5Z"/>
+  <path id="f-m3" d="M438.2 104.5Q434.7 104.5 432 103.3Q429.4 102.1 428 99.9Q426.6 97.7 426.6 94.8H433.5Q433.5 96.5 434.8 97.5Q436.1 98.5 438.3 98.5Q440.5 98.5 441.7 97.5Q442.9 96.5 442.9 94.8Q442.9 93.4 442 92.3Q441.1 91.3 439.4 90.9L436 90.1Q431.8 89.1 429.4 86.4Q427 83.6 427 79.7Q427 76.7 428.4 74.5Q429.7 72.4 432.2 71.2Q434.7 70 438.1 70Q443.3 70 446.3 72.5Q449.3 75.1 449.3 79.4H442.4Q442.4 77.8 441.3 76.9Q440.1 75.9 438 75.9Q436 75.9 435 76.8Q433.9 77.7 433.9 79.4Q433.9 80.9 434.8 81.9Q435.6 82.9 437.2 83.3L440.8 84.1Q445.2 85.1 447.5 87.8Q449.8 90.4 449.8 94.5Q449.8 97.5 448.4 99.7Q446.9 102 444.3 103.2Q441.7 104.5 438.2 104.5Z M454.5 104V70.4H461.4V83.3H469.2V70.4H476.1V104H469.2V89.7H461.4V104Z M479.8 104 488 70.4H496.7L505.1 104H498L496.4 96.4H488.4L486.8 104ZM489.5 90.9H495.2L493.6 82.8Q493.3 81 492.9 79.3Q492.6 77.6 492.4 76.6Q492.2 77.6 491.9 79.3Q491.6 81 491.3 82.7Z M508.7 104V70.4H519.5Q523.1 70.4 525.7 71.7Q528.3 72.9 529.8 75.2Q531.2 77.5 531.2 80.6Q531.2 83.9 529.6 86.5Q528.1 89 525.3 90.2L531.7 104H524.2L518.8 91.3H515.5V104ZM515.5 85.3H519.5Q521.8 85.3 523.1 84.2Q524.3 83 524.3 81Q524.3 78.8 523.1 77.6Q521.8 76.4 519.5 76.4H515.5Z M536.5 104V70.4H557.2V76.3H543.2V83.9H555.6V89.7H543.2V98.1H557.2V104Z M573.7 104.5Q571.6 104.5 570.3 103.2Q569.1 101.9 569.1 99.8Q569.1 97.7 570.3 96.4Q571.6 95.2 573.7 95.2Q575.9 95.2 577.1 96.4Q578.3 97.7 578.3 99.8Q578.3 101.9 577.1 103.2Q575.9 104.5 573.7 104.5Z"/>
+</defs>
+<rect width="1000" height="230" fill="#0B0812"/>
+<rect width="1000" height="230" fill="url(#f-g1)"/>
+<rect width="1000" height="230" fill="url(#f-g2)"/>
+<rect width="1000" height="230" fill="url(#f-dots)"/>
+<rect width="1000" height="230" fill="url(#f-vig)"/>
+<g opacity=".9"><rect x="0" y="-60" width="1000" height="60" fill="url(#f-sweep)"><animate attributeName="y" values="-60;230;230" dur="11s" begin="-3s" repeatCount="indefinite" keyTimes="0;0.75;1"/></rect></g>
+<ellipse cx="925" cy="98" rx="105" ry="88" fill="url(#f-glow)" opacity=".7"><animate attributeName="opacity" values="0.45;0.85;0.45" dur="5s" begin="0s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></ellipse>
+<g transform="translate(925 98)" fill="none">
+  <circle r="64" stroke="#332442" stroke-width="1.2"/>
+  <circle r="64" stroke="#8056C9" stroke-width="1.4" stroke-dasharray="54 24"><animateTransform attributeName="transform" type="rotate" values="0;360" dur="44s" begin="0s" repeatCount="indefinite" keyTimes="0;1"/></circle>
+  <circle r="48" stroke="#B99AFF" stroke-opacity=".55" stroke-dasharray="2 8"><animateTransform attributeName="transform" type="rotate" values="360;0" dur="30s" begin="0s" repeatCount="indefinite" keyTimes="0;1"/></circle>
+  <path d="M0-30L26-15V15L0 30L-26 15V-15Z" stroke="#B99AFF" stroke-width="1.5"/>
+  <path d="M-26-15L0 0L26-15M0 0V30" stroke="#8056C9" stroke-opacity=".7"><animate attributeName="stroke-opacity" values="0.8;0.25;0.8" dur="4.2s" begin="0s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></path>
+  <path d="M-78 0H-70M70 0H78M0-78V-70M0 70V78" stroke="#B99AFF" stroke-opacity=".5"/>
+</g>
+<path d="M0 170H230L242 158H520L532 170H1000" fill="none" stroke="#332442" stroke-width="1.2"/>
+<path d="M0 170H230L242 158H520L532 170H1000" fill="none" stroke="#B99AFF" stroke-width="1.6" stroke-linecap="square" stroke-dasharray="44 1100" stroke-dashoffset="44"><animate attributeName="stroke-dashoffset" values="44;-1100" dur="9s" begin="0s" repeatCount="indefinite" keyTimes="0;1"/></path>
+<rect x="227.5" y="167.5" width="5" height="5" fill="#0B0812" stroke="#8056C9"/>
+<rect x="529.5" y="167.5" width="5" height="5" fill="#0B0812" stroke="#8056C9"/>
+<path d="M1000 170H532L520 158H242L230 170H0" fill="none" stroke="#536BCE" stroke-width="1.4" stroke-dasharray="26 1100" stroke-dashoffset="26" opacity=".85"><animate attributeName="stroke-dashoffset" values="26;-1100" dur="12s" begin="-5s" repeatCount="indefinite" keyTimes="0;1"/></path>
+<text x="44" y="56" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10" letter-spacing="2.5" fill="#B99AFF" text-anchor="start" font-weight="400">03 / END OF SESSION</text>
+<g fill="none" stroke="#8056C9" stroke-opacity=".16" stroke-width="4" stroke-linejoin="round"><use href="#f-m1"/><use href="#f-m2"/><use href="#f-m3"/></g>
+<use href="#f-m1" fill="#F0EAF8"/><use href="#f-m2" fill="#B99AFF"/><use href="#f-m3" fill="#F0EAF8"/>
+<!-- IMPROVE uses matching custom vector lettering, not a system font. -->
+<g transform="translate(610 0)">
+  <g fill="none" stroke="#8056C9" stroke-opacity=".16" stroke-width="4" stroke-linejoin="round">
+    <path d="M0 104V98H6.6V76.4H0V70.4H20.2V76.4H13.5V98H20.2V104Z"/>
+    <path d="M27 104V70.4H34L42.5 84.2L51 70.4H58V104H51.2V82.2L42.5 96L33.8 82.2V104Z"/>
+    <path d="M65 104V70.4H76Q81.5 70.4 84.4 73.2Q87.4 76 87.4 80.7Q87.4 85.3 84.4 88.1Q81.5 90.9 76 90.9H71.8V104ZM71.8 85.1H75.8Q78.1 85.1 79.3 84Q80.5 82.8 80.5 80.7Q80.5 78.5 79.3 77.4Q78.1 76.3 75.8 76.3H71.8Z"/>
+    <path d="M94 104V70.4H104.8Q108.4 70.4 111 71.7Q113.6 72.9 115.1 75.2Q116.5 77.5 116.5 80.6Q116.5 83.9 114.9 86.5Q113.4 89 110.6 90.2L117 104H109.5L104.1 91.3H100.8V104ZM100.8 85.3H104.8Q107.1 85.3 108.4 84.2Q109.6 83 109.6 81Q109.6 78.8 108.4 77.6Q107.1 76.4 104.8 76.4H100.8Z"/>
+    <path d="M136.5 104.5Q131.2 104.5 128.3 101.5Q125.4 98.6 125.4 93.7V80.7Q125.4 75.8 128.3 72.9Q131.2 70 136.5 70Q141.8 70 144.7 72.9Q147.6 75.8 147.6 80.7V93.7Q147.6 98.6 144.7 101.5Q141.8 104.5 136.5 104.5ZM136.5 98.5Q138.5 98.5 139.6 97.3Q140.7 96.1 140.7 93.9V80.6Q140.7 78.4 139.6 77.2Q138.5 76 136.5 76Q134.5 76 133.4 77.2Q132.3 78.4 132.3 80.6V93.9Q132.3 96.1 133.4 97.3Q134.5 98.5 136.5 98.5Z"/>
+    <path d="M156 70.4H163.2L168.4 93.4Q168.7 94.8 169 96.4Q169.3 94.8 169.7 93.4L175 70.4H182L173.2 104H164.8Z"/>
+    <path d="M188 104V70.4H208.7V76.3H194.7V83.9H207.1V89.7H194.7V98.1H208.7V104Z"/>
+  </g>
+  <path d="M0 104V98H6.6V76.4H0V70.4H20.2V76.4H13.5V98H20.2V104Z" fill="#B99AFF"/>
+  <path d="M27 104V70.4H34L42.5 84.2L51 70.4H58V104H51.2V82.2L42.5 96L33.8 82.2V104Z" fill="#B99AFF"/>
+  <path d="M65 104V70.4H76Q81.5 70.4 84.4 73.2Q87.4 76 87.4 80.7Q87.4 85.3 84.4 88.1Q81.5 90.9 76 90.9H71.8V104ZM71.8 85.1H75.8Q78.1 85.1 79.3 84Q80.5 82.8 80.5 80.7Q80.5 78.5 79.3 77.4Q78.1 76.3 75.8 76.3H71.8Z" fill="#B99AFF"/>
+  <path d="M94 104V70.4H104.8Q108.4 70.4 111 71.7Q113.6 72.9 115.1 75.2Q116.5 77.5 116.5 80.6Q116.5 83.9 114.9 86.5Q113.4 89 110.6 90.2L117 104H109.5L104.1 91.3H100.8V104ZM100.8 85.3H104.8Q107.1 85.3 108.4 84.2Q109.6 83 109.6 81Q109.6 78.8 108.4 77.6Q107.1 76.4 104.8 76.4H100.8Z" fill="#B99AFF"/>
+  <path d="M136.5 104.5Q131.2 104.5 128.3 101.5Q125.4 98.6 125.4 93.7V80.7Q125.4 75.8 128.3 72.9Q131.2 70 136.5 70Q141.8 70 144.7 72.9Q147.6 75.8 147.6 80.7V93.7Q147.6 98.6 144.7 101.5Q141.8 104.5 136.5 104.5ZM136.5 98.5Q138.5 98.5 139.6 97.3Q140.7 96.1 140.7 93.9V80.6Q140.7 78.4 139.6 77.2Q138.5 76 136.5 76Q134.5 76 133.4 77.2Q132.3 78.4 132.3 80.6V93.9Q132.3 96.1 133.4 97.3Q134.5 98.5 136.5 98.5Z" fill="#B99AFF"/>
+  <path d="M156 70.4H163.2L168.4 93.4Q168.7 94.8 169 96.4Q169.3 94.8 169.7 93.4L175 70.4H182L173.2 104H164.8Z" fill="#B99AFF"/>
+  <path d="M188 104V70.4H208.7V76.3H194.7V83.9H207.1V89.7H194.7V98.1H208.7V104Z" fill="#B99AFF"/>
+</g>
+<circle cx="827.5" cy="99.8" r="4.6" fill="#B99AFF" stroke="#8056C9" stroke-opacity=".16" stroke-width="1.2"/>
+<text x="44" y="134" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="13" letter-spacing="0.3" fill="#A79BB9" text-anchor="start" font-weight="400">Technology should be free, reproducible and accessible.</text>
+<text x="44" y="160" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" letter-spacing="1" fill="#B99AFF" text-anchor="start" font-weight="400">$ session --close</text>
+<rect x="188" y="150" width="8" height="12" fill="#B99AFF"><animate attributeName="opacity" values="1;0" dur="1.6s" begin="0s" repeatCount="indefinite" calcMode="discrete" keyTimes="0;0.5"/></rect>
+<rect x="1" y="200" width="998" height="29" fill="#10091C"/><path d="M1 200.5H999" stroke="#332442"/>
+<rect x="30" y="211" width="6" height="6" fill="#B99AFF"><animate attributeName="opacity" values="1;0.2;1" dur="3.8s" begin="0s" repeatCount="indefinite" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></rect>
+<text x="46" y="218" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="9" letter-spacing="1.6" fill="#A79BB9" text-anchor="start" font-weight="400">RUFUSTHEDWARF / END OF FILE</text>
+<text x="960" y="218" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="9" letter-spacing="1.6" fill="#A79BB9" text-anchor="end" font-weight="400">OPEN SOURCE  ·  MIT LICENSE</text>
+<rect x=".5" y=".5" width="999" height="229" fill="none" stroke="#332442"/>
+<path d="M10 24V10H24M976 10H990V24M10 206V220H24M976 220H990V206" fill="none" stroke="#8056C9" stroke-width="1.5"/>
 </svg>
